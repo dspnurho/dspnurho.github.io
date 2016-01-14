@@ -1,0 +1,28 @@
+Ajax
+    Update web pages without reloading
+    Request/receive data from a server after the page has loaded
+    Send data in background
+    
+Bootstrap
+
+JQuery
+    jQuery is a JavaScript Library that simplifies JavaScript programming
+    Single JS file, can be referenced with
+    <head>
+        <script src"jquery-1.11.3.min.js"></script>
+    </head>
+    Made for selecting elements and performing actions on them
+    $(selector).action()
+    ex: $("p").hide() //hides all <p> elements
+
+Angular.js
+    Extends HTML functionality
+
+Node.js
+
+Socket.io
+
+For Current Project:
+    js/main.js holds sizing for carousel (ex: testimonials; pstatement)
+    css/style.css holds navbar etc styling
+

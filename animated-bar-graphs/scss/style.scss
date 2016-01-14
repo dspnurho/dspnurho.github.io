@@ -1,0 +1,96 @@
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700);
+@import "compass/reset";
+$fontSans : 'Montserrat', sans-serif;
+ 
+
+$red : #e74c3c ;
+$redAL : rgba(231, 76, 60, 0.95);
+$dark :  #3d3d3d;
+
+
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+*{ box-sizing:border-box;}
+
+
+
+body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-family: $fontSans;
+  padding: 2%;
+ 
+}
+.wrap {
+  width: 50%;
+  margin: 0 auto;
+}
+h1 {
+  font-family: $fontSans;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  padding: .5em 0;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #dadada;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+ul {
+ 	li {
+  		line-height: 2;
+   		font-weight: bold;
+  		font-family:$fontSans;
+  		font-size: .85em;text-transform: uppercase;
+  		clear: both;
+		// border-bottom: 1px solid $border;
+		&:before {
+			content: "\2023";
+			padding: 0 1em 0 0;
+		}
+ 	}
+ }
+ .bar {
+ 	background:$red;
+ 	width: 0;
+ 	margin: .25em 0;
+ 	color: #fff;
+ 	position: relative;
+ 	 transition:width 2s, background .2s;
+   -webkit-transform: translate3d(0,0,0);
+ 	 clear: both;
+ 	 &:nth-of-type(2n) {
+ 	 	background:lighten($red , 10% );
+ 	 }
+ 	 .label {
+		font-size: .75em;
+		padding: 1em;
+		background: $dark;
+		width: 8em;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		font-weight: bold;
+		font-family: $fontSans;
+		 &.light {
+ 	 	background:lighten($dark , 10% );
+ 	 }
+
+}
+ }
+ .count {
+	position: absolute;
+	right: .25em;
+	top: .75em;
+ 	padding: .15em; 
+	font-size: .75em;
+	font-weight: bold;
+	font-family: $fontSans;
+ }
