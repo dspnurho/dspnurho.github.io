@@ -21,8 +21,10 @@ h2{
 	margin:  0;
 }
 h3{
+/*
 font-size: 18px;
 font-weight: 900;
+*/
 }
 h4{
 	/*text-transform: uppercase;*/
@@ -30,8 +32,8 @@ h4{
 h5{
 	/*text-transform: uppercase;*/
     /*No upper case for Jin's statement*/
-	font-weight: 700;
-	line-height: 20px;
+/*	font-weight: 700;
+	line-height: 20px;*/
 }
 p{
 	font-family: 'Open Sans', sans-serif;
