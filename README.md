@@ -7,3 +7,4 @@
 This is created in collaboration with Sarah Tao and Mary Serafin
 
 Mary Serafin: Marketing Director
+Sarah Tao/Vincent Yang: WebMaster
