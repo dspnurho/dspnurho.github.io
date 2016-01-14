@@ -48,6 +48,9 @@ $(document).ready(function() {
         document.getElementById('exampleInputPassword1').value = "";
         document.getElementById('message1').value="";
     });
+    $('.newmemberapp').click(function() {
+        window.location = 'recruitment.html';
+    })
 
 
     $('.close-error').click(function() {
