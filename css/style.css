@@ -427,7 +427,7 @@ ul.about-list li span{
 }
 
 /* Brothers Section */
-#tf-brothers{
+#tf-about-nurhochapter{
 	/*background: url(../img/03.jpg);*/
     background: url(../img/lightbulb.jpg);
 	background-size: cover;
@@ -436,7 +436,7 @@ ul.about-list li span{
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
-#tf-brothers .overlay{
+#tf-about-nurhochapter .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -1127,10 +1127,10 @@ figure.effect-bubba:hover img {
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
     position: absolute;
-    top: 25px;
-    right: 35px;
-    bottom: 25px;
-    left: 35px;
+    top: 10%;
+    right: 8%;
+    bottom: 14%;
+    left: 8%;
     content: "";
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
