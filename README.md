@@ -5,6 +5,7 @@
 ![](http://i.imgur.com/Y9VjCOg.png)
 
 This is created in collaboration with Sarah Tao and Mary Serafin
+In progress: brother's page
 
 Mary Serafin: Marketing Director
 Sarah Tao/Vincent Yang: WebMaster
