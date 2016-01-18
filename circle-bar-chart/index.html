@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Circle Bar Chart</title>
+        <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="724px" height="400px"
+	 overflow="visible" xml:space="preserve">
+    
+    <g id="circleBarCharts">
+        
+        <!-- Web Circle Bar Chart -->
+        <g id="circleBar-web-group" transform="translate(0,0)">
+          <image id="circleBar-web-icon" opacity="0" x="166" y="112" overflow="visible" width="98" height="77" xlink:href="http://www.frank-designs.com/images/icon_web.png" />
+            <text id="circleBar-web-text" opacity="0" x="200" y="143">WEB</text>
+            <g id="circleBar-web-chart" transform="translate(215,150)"></g>
+            <clippath id="circleBar-web-clipPath">
+                <rect id="circleBar-web-clipLabels" x="205" y="215" width="180" height="0"></rect>
+            </clippath>
+            <g id="circleBar-web-legend" clip-path="url(#circleBar-web-clipPath)">
+                <text id="circleBar-web-values" transform="translate(222,225)"></text>
+                <text id="circleBar-web-labels" transform="translate(277,225)"></text>
+            </g>
+        </g>
+        <!-- END: Web Circle Bar Chart -->
+    
+        <!-- Mobile Circle Bar Chart -->
+        <g id="circleBar-mobile-group" transform="translate(362,0)">
+            <image id="circleBar-mobile-icon" opacity="0" x="195" y="112" overflow="visible" width="40" height="77" xlink:href="http://www.frank-designs.com/images/icon_mobile.png" />
+            <text id="circleBar-mobile-text" opacity="0" x="187" y="155">MOBILE</text>
+            <g id="circleBar-mobile-chart" transform="translate(215,150)"></g>
+            <clippath id="circleBar-mobile-clipPath">
+                <rect id="circleBar-mobile-clipLabels" x="205" y="215" width="150" height="0"></rect>
+            </clippath>
+            <g id="circleBar-mobile-legend" clip-path="url(#circleBar-mobile-clipPath)">
+                <text id="circleBar-mobile-values" transform="translate(222,225)"></text>
+                <text id="circleBar-mobile-labels" transform="translate(277,225)"></text>
+            </g>
+        </g>
+        <!-- END: Mobile Circle Bar Chart -->
+    </g>
+</svg>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js'></script>
+        <script src="js/index.js"></script>
+  </body>
+</html>
