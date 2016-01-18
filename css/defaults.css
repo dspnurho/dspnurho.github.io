@@ -52,8 +52,8 @@ h2, h2 a,
 h3, h3 a,
 h4, h4 a,
 h5, h5 a {
-  font-family: "Asap";
-  color: #262626;
+  font-family: "Open Sans";
+  
   line-height: 1.200em;
   margin-bottom: 20px;
 }
@@ -124,7 +124,6 @@ em {
 
 /* line 30, ../scss/2-framework/_typography.scss */
 a {
-  color: #3C8FC7;
   text-decoration: none;
 }
 
@@ -2128,7 +2127,7 @@ button.btn {
 
 /* line 1, ../scss/3-components/global/_site-logo.scss */
 .site-logo {
-  font-family: "Asap";
+  font-family: "Open Sans";
   font-size: 3.000em;
   color: #777;
   line-height: 100%;
