@@ -1,7 +1,8 @@
 body {
     position: relative;
     margin-left:15px;
-    background-color:#eee;
+/*    background-color:#eee;*/
+    background-color: #fff;
 }
 #circleBar-web-text,
 #circleBar-mobile-text{
