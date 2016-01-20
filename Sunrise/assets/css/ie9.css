@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+.rocket-block, .contact-block, .mock {
+     top: 10%;
+     transform: translateY(0%);
+}
