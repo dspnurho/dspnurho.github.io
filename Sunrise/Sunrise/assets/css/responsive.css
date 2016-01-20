@@ -1,0 +1,133 @@
+/* 
+=======================================================================
+--------------------TO MAKE RESPONSIVE----------------------------------
+---------------------------------------------------------------------- /
+
+---------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .content, 
+  .content .row, 
+  .content .row .left-block, 
+  .content .row .right-block,
+  .sun-content
+   {
+    height: 100%;
+  }
+  .rocket-block, .contact-block {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(0%);
+         -o-transform: translateY(0%);
+            transform: translateY(-50%);
+  }
+  .sun {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-48%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(0%);
+         -o-transform: translateY(0%);
+            transform: translateY(-50%);
+  }
+  
+  .sun img {
+	  position:relative;
+	  bottom:-96px;
+  }
+
+/*--------targetting the opera----------*/
+
+  x:-o-prefocus, .rocket-block {
+    top: 30%;
+    transform: translateY(-30%);
+  }
+  x:-o-prefocus, .contact-block {
+    top: 30%;
+    transform: translateY(-30%);
+  }
+  x:-o-prefocus .sun {
+	  position:relative;
+	  top:50%;
+	  transform: translateY(-50%);
+  }
+}
+
+/*------targetting the IE10 and above------*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */ 
+   .rocket-block, .contact-block {
+        top: 10%;
+        transform: translateY(0%);
+     }
+	.sun {
+		position:relative;
+	  top:50%;
+	  transform: translateY(-50%);
+	 } 
+}
+
+@media screen and (max-width: 768px) {
+	body { height: auto;}
+  .left-block, .right-block {
+    overflow: hidden;
+  }
+  .contact-block, .rocket-block {
+    margin-top: 60px;
+  }
+  .contact-block .col-sm-6:first-child .form-control {
+    margin-bottom: 15px;
+  }
+  .sun-content {
+	  padding-top: 50px;
+  }
+  .sun img {
+	  display:inline;
+	  margin-bottom:15px;
+  }
+  .menu.m-control a {
+	  border-radius:0;
+	  border:none;
+	  background:none;
+  }
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 28px;
+  }
+  .contact-block h2 {
+    margin-bottom: 30px;
+  }
+  .contact-block .para {
+    margin-bottom: 40px;
+  }
+  .contact-block form {
+    margin-bottom: 50px;
+  }
+  .contact-block .form-control {
+    line-height: 1;
+  }
+  .form-control::-moz-placeholder {
+    font-size: 10px;
+    line-height: 2;
+  }
+.form-control:-ms-input-placeholder {
+    font-size: 10px;
+    line-height: 2;
+  }
+.form-control::-webkit-input-placeholder {
+    font-size: 10px;
+    line-height: 2;
+  }
+  .rocket-block h1 {
+    margin-bottom:20px;
+  }
+  .timing {
+    margin-top: 22px;
+  }
+  .social-icon li {
+    font-size: 30px;
+  }
+}
