@@ -120,15 +120,15 @@ font-weight: 900;
 
 .navbar-toggle {
 	border-radius: 0;
-	}
+}
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
 	background-color: #afd2e9; /*Not sure - mobile?*/
 	border-color: #afd2e9;
-	}
+}
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #000;
-	}
+}
 /* Home Style */
 #tf-home{
     background: url(../img/expand_your_network.jpg);
