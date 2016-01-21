@@ -148,7 +148,7 @@ font-weight: 900;
 }
 
 #tf-recruitment-page{
-    background: url(../img/arboretum.jpg);
+    background: url(../img/brother_suit.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -856,7 +856,7 @@ ol.type li a.active { font-weight: 700; }
 	color: #ffffff;
 }
 #tf-quote{
-	background: url(../img/brother_suit.jpg);
+	background: url(../img/clock.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
