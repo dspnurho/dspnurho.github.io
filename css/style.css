@@ -60,7 +60,8 @@ p.intro{
 }
 @media screen and (min-width: 768px) {
     img {
-        width: 40%;
+        /*width: 40%;*/
+        max-width: 100%;
         height: auto;
     }
 }
