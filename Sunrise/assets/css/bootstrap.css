@@ -5,15 +5,26 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+<<<<<<< HEAD
 .bg html {
+=======
+html {
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+<<<<<<< HEAD
 .bg body {
   margin: 0;
 }
 .bg article,
+=======
+body {
+  margin: 0;
+}
+article,
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
 aside,
 details,
 figcaption,
@@ -28,6 +39,7 @@ section,
 summary {
   display: block;
 }
+<<<<<<< HEAD
 .bg audio,
 canvas,
 progress,
@@ -72,12 +84,59 @@ strong {
   font-size: 80%;
 }
 .bg sub,
+=======
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+mark {
+  color: #000;
+  background: #ff0;
+}
+small {
+  font-size: 80%;
+}
+sub,
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
 sup {
   position: relative;
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
 }
+<<<<<<< HEAD
 .bg sup {
   top: -.5em;
 }
@@ -94,22 +153,51 @@ sup {
   margin: 1em 40px;
 }
 .bg hr {
+=======
+sup {
+  top: -.5em;
+}
+sub {
+  bottom: -.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
   height: 0;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
+<<<<<<< HEAD
 .bg pre {
   overflow: auto;
 }
 .bg code,
+=======
+pre {
+  overflow: auto;
+}
+code,
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
+<<<<<<< HEAD
 .bg button,
+=======
+button,
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
 input,
 optgroup,
 select,
@@ -118,6 +206,7 @@ textarea {
   font: inherit;
   color: inherit;
 }
+<<<<<<< HEAD
 .bg button {
   overflow: visible;
 }
@@ -126,50 +215,92 @@ select {
   text-transform: none;
 }
 .bg button,
+=======
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
+<<<<<<< HEAD
 .bg button[disabled],
 html input[disabled] {
   cursor: default;
 }
 .bg button::-moz-focus-inner,
+=======
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
 input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+<<<<<<< HEAD
 .bg input {
   line-height: normal;
 }
 .bg input[type="checkbox"],
+=======
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
 input[type="radio"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
 }
+<<<<<<< HEAD
 .bg input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 .bg input[type="search"] {
+=======
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
   -webkit-appearance: textfield;
 }
+<<<<<<< HEAD
 .bg input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 .bg fieldset {
+=======
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
   padding: .35em .625em .75em;
   margin: 0 2px;
   border: 1px solid #c0c0c0;
 }
+<<<<<<< HEAD
 .bg legend {
   padding: 0;
   border: 0;
@@ -185,11 +316,32 @@ input[type="search"]::-webkit-search-decoration {
   border-collapse: collapse;
 }
 .bg td,
+=======
+legend {
+  padding: 0;
+  border: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td,
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
 th {
   padding: 0;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+<<<<<<< HEAD
 .bg @media print {
+=======
+@media print {
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
   *,
   *:before,
   *:after {
@@ -264,13 +416,21 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+<<<<<<< HEAD
 .bg @font-face {
+=======
+@font-face {
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+<<<<<<< HEAD
 .bg .glyphicon {
+=======
+.glyphicon {
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
   position: relative;
   top: 1px;
   display: inline-block;
@@ -282,6 +442,7 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+<<<<<<< HEAD
 .bg .glyphicon-asterisk:before {
   content: "\2a";
 }
@@ -326,6 +487,55 @@ th {
   content: "\e009";
 }
 .bg .glyphicon-th-large:before {
+=======
+.glyphicon-asterisk:before {
+  content: "\2a";
+}
+.glyphicon-plus:before {
+  content: "\2b";
+}
+.glyphicon-euro:before,
+.glyphicon-eur:before {
+  content: "\20ac";
+}
+.glyphicon-minus:before {
+  content: "\2212";
+}
+.glyphicon-cloud:before {
+  content: "\2601";
+}
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+.glyphicon-pencil:before {
+  content: "\270f";
+}
+.glyphicon-glass:before {
+  content: "\e001";
+}
+.glyphicon-music:before {
+  content: "\e002";
+}
+.glyphicon-search:before {
+  content: "\e003";
+}
+.glyphicon-heart:before {
+  content: "\e005";
+}
+.glyphicon-star:before {
+  content: "\e006";
+}
+.glyphicon-star-empty:before {
+  content: "\e007";
+}
+.glyphicon-user:before {
+  content: "\e008";
+}
+.glyphicon-film:before {
+  content: "\e009";
+}
+.glyphicon-th-large:before {
+>>>>>>> parent of 8fe6d33... Countdown on Recruitment
   content: "\e010";
 }
 .glyphicon-th:before {

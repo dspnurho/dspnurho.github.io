@@ -5,15 +5,15 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-.bg html {
+html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-.bg body {
+body {
   margin: 0;
 }
-.bg article,
+article,
 aside,
 details,
 figcaption,
@@ -28,88 +28,88 @@ section,
 summary {
   display: block;
 }
-.bg audio,
+audio,
 canvas,
 progress,
-.bg video {
+video {
   display: inline-block;
   vertical-align: baseline;
 }
-.bg audio:not([controls]) {
+audio:not([controls]) {
   display: none;
   height: 0;
 }
-.bg [hidden],
+[hidden],
 template {
   display: none;
 }
-.bg a {
+a {
   background-color: transparent;
 }
-.bg a:active,
-.bg a:hover {
+a:active,
+a:hover {
   outline: 0;
 }
-.bg abbr[title] {
+abbr[title] {
   border-bottom: 1px dotted;
 }
-.bg b,
+b,
 strong {
   font-weight: bold;
 }
-.bg dfn {
+dfn {
   font-style: italic;
 }
-.bg h1 {
+h1 {
   margin: .67em 0;
   font-size: 2em;
 }
-.bg mark {
+mark {
   color: #000;
   background: #ff0;
 }
-.bg small {
+small {
   font-size: 80%;
 }
-.bg sub,
+sub,
 sup {
   position: relative;
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
 }
-.bg sup {
+sup {
   top: -.5em;
 }
-.bg sub {
+sub {
   bottom: -.25em;
 }
-.bg img {
+img {
   border: 0;
 }
-.bg svg:not(:root) {
+svg:not(:root) {
   overflow: hidden;
 }
-.bg figure {
+figure {
   margin: 1em 40px;
 }
-.bg hr {
+hr {
   height: 0;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
-.bg pre {
+pre {
   overflow: auto;
 }
-.bg code,
+code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-.bg button,
+button,
 input,
 optgroup,
 select,
@@ -118,78 +118,78 @@ textarea {
   font: inherit;
   color: inherit;
 }
-.bg button {
+button {
   overflow: visible;
 }
-.bg button,
+button,
 select {
   text-transform: none;
 }
-.bg button,
+button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
-.bg button[disabled],
+button[disabled],
 html input[disabled] {
   cursor: default;
 }
-.bg button::-moz-focus-inner,
+button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-.bg input {
+input {
   line-height: normal;
 }
-.bg input[type="checkbox"],
+input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
 }
-.bg input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-.bg input[type="search"] {
+input[type="search"] {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
   -webkit-appearance: textfield;
 }
-.bg input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-.bg fieldset {
+fieldset {
   padding: .35em .625em .75em;
   margin: 0 2px;
   border: 1px solid #c0c0c0;
 }
-.bg legend {
+legend {
   padding: 0;
   border: 0;
 }
-.bg textarea {
+textarea {
   overflow: auto;
 }
-.bg optgroup {
+optgroup {
   font-weight: bold;
 }
-.bg table {
+table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-.bg td,
+td,
 th {
   padding: 0;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-.bg @media print {
+@media print {
   *,
   *:before,
   *:after {
@@ -264,13 +264,13 @@ th {
     border: 1px solid #ddd !important;
   }
 }
-.bg @font-face {
+@font-face {
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
-.bg .glyphicon {
+.glyphicon {
   position: relative;
   top: 1px;
   display: inline-block;
@@ -282,50 +282,53 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.bg .glyphicon-asterisk:before {
+.glyphicon-asterisk:before {
   content: "\2a";
 }
-.bg .glyphicon-plus:before { content: "\2b";
+.glyphicon-plus:before {
+  content: "\2b";
 }
-.bg .glyphicon-euro:before,
+.glyphicon-euro:before,
 .glyphicon-eur:before {
   content: "\20ac";
 }
-.bg .glyphicon-minus:before { content: "\2212";
+.glyphicon-minus:before {
+  content: "\2212";
 }
-.bg .glyphicon-cloud:before { content: "\2601";
+.glyphicon-cloud:before {
+  content: "\2601";
 }
-.bg .glyphicon-envelope:before {
+.glyphicon-envelope:before {
   content: "\2709";
 }
-.bg .glyphicon-pencil:before {
+.glyphicon-pencil:before {
   content: "\270f";
 }
-.bg .glyphicon-glass:before {
+.glyphicon-glass:before {
   content: "\e001";
 }
-.bg .glyphicon-music:before {
+.glyphicon-music:before {
   content: "\e002";
 }
-.bg .glyphicon-search:before {
+.glyphicon-search:before {
   content: "\e003";
 }
-.bg .glyphicon-heart:before {
+.glyphicon-heart:before {
   content: "\e005";
 }
-.bg .glyphicon-star:before {
+.glyphicon-star:before {
   content: "\e006";
 }
-.bg .glyphicon-star-empty:before {
+.glyphicon-star-empty:before {
   content: "\e007";
 }
-.bg .glyphicon-user:before {
+.glyphicon-user:before {
   content: "\e008";
 }
-.bg .glyphicon-film:before {
+.glyphicon-film:before {
   content: "\e009";
 }
-.bg .glyphicon-th-large:before {
+.glyphicon-th-large:before {
   content: "\e010";
 }
 .glyphicon-th:before {
