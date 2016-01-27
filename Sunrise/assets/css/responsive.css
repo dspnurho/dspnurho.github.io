@@ -5,7 +5,7 @@
 
 ---------------------------------------------------------------------- */
 
-@media screen and (min-width: 768px) {
+.bg @media screen and (min-width: 768px) {
   .content, 
   .content .row, 
   .content .row .left-block, 
@@ -56,7 +56,7 @@
 }
 
 /*------targetting the IE10 and above------*/
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+.bg @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
    /* IE10+ specific styles go here */ 
    .rocket-block, .contact-block {
         top: 10%;
@@ -69,7 +69,7 @@
 	 } 
 }
 
-@media screen and (max-width: 768px) {
+.bg @media screen and (max-width: 768px) {
 	body { height: auto;}
   .left-block, .right-block {
     overflow: hidden;
@@ -93,7 +93,7 @@
 	  background:none;
   }
 }
-@media screen and (max-width: 480px) {
+.bg @media screen and (max-width: 480px) {
   h2 {
     font-size: 28px;
   }
