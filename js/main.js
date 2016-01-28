@@ -124,8 +124,10 @@ $(document).ready(function() {
         var password=document.getElementById('potentialpassword').value;
         Parse.User.logIn(username, password, {
             success: function(user) {
-                alert("logged in!");
-                window.location = 'indexin.html'
+                /*alert("logged in!");*/
+                /*window.location = 'indexin.html'*/
+                window.location = 'roster.html';
+                Parse.User.logOut();
                 /*document.getElementById('potentialusername').value = "";
                 document.getElementById('potentialpassword').value = "";
                 document.getElementById('potentialemail').value = "";
@@ -146,16 +148,20 @@ $(document).ready(function() {
         alert("signing out");
         if (Parse.User.current() == null) {
             alert("Not logged in");
+            window.location= 'index.html';
         }
         Parse.User.logOut();
-        window.location= 'signin.html';
-        /*$('#logged-in-status').hide();
-        $('#already-logged-in').hide();*/
+        window.location= 'index.html';
     });
-    /*$('#sponsor').click(function() {
-        alert("sponsor successful");
-    });*/
-});
+    window.onbeforeunload = function(){
+      alert(location.pathname.split("/")).slice(-1);
+      if (window.location == 'roster.html'){
+        return ("You're leaving");
+      }
+      return ("");
+
+    };
+	});
 
 function googleMaps() {
     var myCenter = new google.maps.LatLng(38.543498, -121.764602);
