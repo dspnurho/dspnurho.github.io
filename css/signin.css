@@ -86,9 +86,8 @@ span {
     color: #eee;
     text-transform: uppercase;
     font-size: 12px;
-    opacity: 0.5; 
+    /*opacity: 0.5; */
     display: inline-block;
-    position: relative;
     top: -65px;
     transition: all 0.5s ease-in-out;
 }
