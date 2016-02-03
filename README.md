@@ -1,10 +1,8 @@
 # YangVincent.github.io
-### This is currently a website in progress for Delta Sigma Pi | Nu Rho Chapter
-* For Webmasters to prepare for development: 
-* ``git clone``
+### This is the website for Delta Sigma Pi | Nu Rho Chapter. It can be found at www.dsp-nurho.com.
 ![](http://i.imgur.com/Y9VjCOg.png)
 
 This is created in collaboration with Sarah Tao and Mary Serafin
 
 Mary Serafin: Marketing Director
-Sarah Tao/Vincent Yang: WebMaster
+Sarah Tao/Vincent Yang: Directors of Technology
