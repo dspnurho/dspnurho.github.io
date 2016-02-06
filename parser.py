@@ -1,12 +1,12 @@
 import csv
 import sys
 if len(sys.argv) != 2:
-    print("usage: python parser.py [pre-registration.csv]")
-    print("output: pre-registration.txt")
+    print("usage: python parser.py [applications.csv]")
+    print("output: applications.txt")
     sys.exit()
 
 try:
-    f = open('pre-registration.txt', 'w+')
+    f = open('applications.txt', 'w+')
     #fi = open('pre-registration.csv')
     fi = open(sys.argv[1])
     reader = csv.reader(fi)
@@ -32,6 +32,7 @@ try:
                 f.write("Major: \b")
             counter = counter + 1
             f.write(j)
+            print(j)
             f.write("\n")
             f.write("\n")
         f.write("---------------END PROSPECT----------------\n")
