@@ -22,6 +22,7 @@
 .owl-carousel .owl-wrapper{
 	display: none;
 	position: relative;
+
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-wrapper-outer{
@@ -29,6 +30,7 @@
 	position: relative;
 	width: 100%;
 }
+
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
 	-moz-transition: height 500ms ease-in-out;
@@ -36,6 +38,8 @@
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
+
+
 	
 .owl-carousel .owl-item{
 	float: left;
@@ -68,6 +72,7 @@
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
 }
+
 
 
 .nav-dots {
@@ -131,6 +136,8 @@
 .bg-2 .sl-slide-inner,
 .bg-2 .sl-content-slice {
 	background: #000;
+	max-height: 700px;
+	overflow: hidden;
 }
 
 .bg-2 [data-icon]:after,
