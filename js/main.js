@@ -301,6 +301,11 @@ function main() {
             $('body').addClass('loaded');
             var $container = $('#lightbox');
             $container.isotope({
+              getSortData: {
+                name: '.name',
+                symbol: '.symbol',
+                number: '.number'
+              }
                 filter: '*',
                 animationOptions: {
                     duration: 750,
