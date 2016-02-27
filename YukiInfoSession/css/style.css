@@ -19,6 +19,17 @@ p {
   color: #26a69a;
 }
 
+
+/*.parallax-overlay {
+position: absolute;
+width: 100%;
+height: 380px;
+margin: 0 auto;
+z-index: 2;
+background-color: #000000;
+opacity: .5;
+ } */ 
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -28,6 +39,7 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -55,3 +67,4 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
