@@ -210,27 +210,27 @@ function main() {
             var navHeight = $(window).height() - 100;
             if ($(window).scrollTop() > navHeight) {
                 $('.navbar-default').addClass('on');
-                if ($(window).scrollTop() > 400) {
-                    $('.shortnav').addClass('on');
-                }
                 if ($(window).scrollTop() > 1) {
                     $('.supershortnav').addClass('on');
+                    if ($(window).scrollTop() > 400) {
+                      $('.shortnav').addClass('on');
+                    }
                 }
             } else {
                 $('.navbar-default').removeClass('on');
-                if ($(window).scrollTop() > 400) {
-                    $('.shortnav').addClass('on');
-                }
-                if ($(window).scrollTop() > 1) {
+                /*if ($(window).scrollTop() > 1) {
                     $('.supershortnav').addClass('on');
-                }
+                    if ($(window).scrollTop() > 400) {
+                      $('.shortnav').addClass('on');
+                    }
+                }*/
             }
         });
 
-        $('body').scrollspy({
+        /*$('body').scrollspy({
             target: '.navbar-default',
             offset: 80
-        })
+        })*/
 
         $(document).ready(function() {
             $("#brothers").owlCarousel({
