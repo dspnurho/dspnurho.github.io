@@ -6,7 +6,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 deny from all
 </Files>
 Options Indexes
-AuthUserFile /roster/.htpasswd
+AuthUserFile /Users/VincentYang/Dropbox/AeonNeo/dsp-nurho.github.io/roster/.htpasswd
 AuthGroupFile /dev/null
 AuthName "Please enter your ID and password"
 AuthType Basic
