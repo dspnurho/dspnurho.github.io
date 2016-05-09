@@ -1,3 +1,16 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+AuthUserFile .htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user 
+DirectoryIndex index.html       
+order deny,allow
+
