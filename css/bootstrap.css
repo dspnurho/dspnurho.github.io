@@ -3421,7 +3421,7 @@ tbody.collapse.in {
   font-size: 14px;
   text-align: left;
   list-style: none;
-  background-color: rgba(1, 1, 1, 0.7); /*Background color of nav dropdown*/
+  background-color: rgba(1, 1, 1, 0.3); /*Background color of nav dropdown*/
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;

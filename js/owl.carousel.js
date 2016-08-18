@@ -9,7 +9,7 @@
  */
 
 /*JS Lint helpers: */
-/*global dragMove: false, dragEnd: false, $, jQu    ery, alert, window, document */
+/*global dragMove: false, dragEnd: false, $, jQuery, alert, window, document */
 /*jslint nomen: true, continue:true */
 
 if (typeof Object.create !== "function") {

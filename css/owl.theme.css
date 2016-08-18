@@ -11,7 +11,7 @@
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #FF;
+	color: #FFF;
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */

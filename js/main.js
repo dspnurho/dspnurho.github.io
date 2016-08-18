@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 1500);
+
     $(".pillaricon").hover(function () {
         $(this).toggleClass("fa-spin");
     });
@@ -39,18 +43,6 @@ $(document).ready(function() {
         });
     });
 
-    $('#submit-index').click(function() {
-        alert("Success!");
-        var email = document.getElementById('exampleInputEmail1').value;
-        var name = document.getElementById('exampleInputPassword1').value;
-        var message = document.getElementById("message1").value;
-        document.getElementById('exampleInputEmail1').value = "";
-        document.getElementById('exampleInputPassword1').value = "";
-        document.getElementById('message1').value="";
-    });
-    $('.newmemberapp').click(function() {
-        window.location = 'recruitment.html';
-    })
 
 
     $('.close-error').click(function() {
@@ -124,10 +116,8 @@ $(document).ready(function() {
         var password=document.getElementById('potentialpassword').value;
         Parse.User.logIn(username, password, {
             success: function(user) {
-                /*alert("logged in!");*/
-                /*window.location = 'indexin.html'*/
-                window.location = 'roster.html';
-                Parse.User.logOut();
+                alert("logged in!");
+                window.location = 'indexin.html'
                 /*document.getElementById('potentialusername').value = "";
                 document.getElementById('potentialpassword').value = "";
                 document.getElementById('potentialemail').value = "";
@@ -148,20 +138,13 @@ $(document).ready(function() {
         alert("signing out");
         if (Parse.User.current() == null) {
             alert("Not logged in");
-            window.location= 'index.html';
         }
         Parse.User.logOut();
-        window.location= 'index.html';
+        window.location= 'signin.html';
+        /*$('#logged-in-status').hide();
+        $('#already-logged-in').hide();*/
     });
-    window.onbeforeunload = function(){
-      alert(location.pathname.split("/")).slice(-1);
-      if (window.location == 'roster.html'){
-        return ("You're leaving");
-      }
-      return ("");
-
-    };
-	});
+});
 
 function googleMaps() {
     var myCenter = new google.maps.LatLng(38.543498, -121.764602);
@@ -211,26 +194,20 @@ function main() {
             if ($(window).scrollTop() > navHeight) {
                 $('.navbar-default').addClass('on');
                 if ($(window).scrollTop() > 1) {
-                    $('.supershortnav').addClass('on');
-                    if ($(window).scrollTop() > 400) {
-                      $('.shortnav').addClass('on');
-                    }
+                    $('.shortnav').addClass('on');
                 }
             } else {
                 $('.navbar-default').removeClass('on');
-                /*if ($(window).scrollTop() > 1) {
-                    $('.supershortnav').addClass('on');
-                    if ($(window).scrollTop() > 400) {
-                      $('.shortnav').addClass('on');
-                    }
-                }*/
+                if ($(window).scrollTop() > 1) {
+                    $('.shortnav').addClass('on');
+                }
             }
         });
 
-        /*$('body').scrollspy({
+        $('body').scrollspy({
             target: '.navbar-default',
             offset: 80
-        })*/
+        })
 
         $(document).ready(function() {
             $("#brothers").owlCarousel({
@@ -270,12 +247,6 @@ function main() {
             });
 
 
-            $("#testimonial").owlCarousel({
-                navigation : false, // Show next and prev buttons
-                paginationSpeed : 400,
-                center: true,
-                singleItem:true
-            });
 
             $("#pstatement").owlCarousel({
                 navigation : false, // Show next and prev buttons
@@ -289,8 +260,7 @@ function main() {
         /*====================================
           Portfolio Isotope Filter
           ======================================*/
-        $(window).load(function() { /*waits for everything to be loaded before calling*/
-            $('body').addClass('loaded');
+        $(window).load(function() {
             var $container = $('#lightbox');
             $container.isotope({
                 filter: '*',
@@ -319,10 +289,3 @@ function main() {
     }());
 }
 main();
-
-function imgError(image) {
-    image.onerror = "";
-    image.src = "../img/01.jpg";
-    return true;
-
-}
