@@ -153,14 +153,14 @@ $(document).ready(function() {
         Parse.User.logOut();
         window.location= 'index.html';
     });
-    window.onbeforeunload = function(){
-      alert(location.pathname.split("/")).slice(-1);
-      if (window.location == 'roster.html'){
-        return ("You're leaving");
-      }
-      return ("");
+    //window.onbeforeunload = function(){
+    //  alert(location.pathname.split("/")).slice(-1);
+    //  if (window.location == 'roster.html'){
+    //    return ("You're leaving");
+    //  }
+    //  return ("");
 
-    };
+    //};
 	});
 
 function googleMaps() {
@@ -233,23 +233,23 @@ function main() {
         })*/
 
         $(document).ready(function() {
-            $("#brothers").owlCarousel({
+            //$("#brothers").owlCarousel({
 
-                navigation : false, // Show next and prev buttons
-                slideSpeed : 300,
-                paginationSpeed : 400,
-                autoHeight : true,
-                itemsCustom : [
-                    [0, 1],
-                    [450, 2],
-                    [600, 2],
-                    [700, 2],
-                    [1000, 4],
-                    [1200, 4],
-                    [1400, 4],
-                    [1600, 4]
-                ],
-            });
+            //    navigation : false, // Show next and prev buttons
+            //    slideSpeed : 300,
+            //    paginationSpeed : 400,
+            //    autoHeight : true,
+            //    itemsCustom : [
+            //        [0, 1],
+            //        [450, 2],
+            //        [600, 2],
+            //        [700, 2],
+            //        [1000, 4],
+            //        [1200, 4],
+            //        [1400, 4],
+            //        [1600, 4]
+            //    ],
+            //});
 
             $("#clients").owlCarousel({
 
