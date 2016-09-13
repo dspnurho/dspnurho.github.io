@@ -191,16 +191,16 @@ function main() {
           ======================================*/
         $(window).bind('scroll', function() {
             var navHeight = $(window).height() - 100;
+            var shortHeight = navHeight - 300;
             if ($(window).scrollTop() > navHeight) {
-                $('.navbar-default').addClass('on');
-                if ($(window).scrollTop() > 1) {
-                    $('.shortnav').addClass('on');
-                }
+                $('.navbar-long').addClass('on');
             } else {
-                $('.navbar-default').removeClass('on');
-                if ($(window).scrollTop() > 1) {
-                    $('.shortnav').addClass('on');
-                }
+                $('.navbar-long').removeClass('on');
+            }
+            if ($(window).scrollTop() > shortHeight) {
+                $('.navbar-short').addClass('on');
+            } else {
+                $('.navbar-short').removeClass('on');
             }
         });
 
