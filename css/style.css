@@ -147,6 +147,10 @@ font-weight: 900;
 	padding: 20% 0 0;
 }
 
+.connect-content{
+	position: relative;
+	padding: 10% 0 0;
+}
 .color{
 	color: #AFD2E9;
 }
@@ -941,4 +945,66 @@ figcaption > a {
     height: 70vh; /*Length of cover screen*/
 
 	background-attachment: fixed;
+}
+/*Connect Icons*/
+a.fa.fa-linkedin {
+    padding: 10px 16px;
+    color: #fff;
+	border: 2px solid #b4b4b4;
+	border-radius: 50%;
+	margin-top: 50px;
+    margin-left: 20px;
+	transition: all 0.5s;
+	border: 2px solid #AFD2E9; /*blue border*/
+}
+a.fa.fa-linkedin:hover{
+	background: #fff; /*Color of background*/
+	color: #AFD2E9; /*Color of icon*/
+	border: 2px solid #AFD2E9; /*blue border*/
+}
+a.fa.fa-instagram {
+    padding: 10px 16px;
+    color: #fff;
+	border: 2px solid #b4b4b4;
+	border-radius: 50%;
+	margin-top: 50px;
+    margin-left: 20px;
+	transition: all 0.5s;
+	border: 2px solid #AFD2E9; /*blue border*/
+}
+a.fa.fa-instagram:hover{
+	background: #fff; /*Color of background*/
+	color: #AFD2E9; /*Color of icon*/
+	border: 2px solid #AFD2E9; /*blue border*/
+}
+a.fa.fa-facebook {
+    text-decoration: none;
+    padding: 10px 22px;
+    color: #fff;
+	border: 2px solid #b4b4b4;
+	border-radius: 50%;
+	margin-top: 50px;
+    margin-left: 20px;
+	transition: all 0.5s;
+	border: 2px solid #AFD2E9; /*blue border*/
+}
+a.fa.fa-facebook:hover{
+	background: #fff; /*Color of background*/
+	color: #AFD2E9; /*Color of icon*/
+	border: 2px solid #AFD2E9; /*blue border*/
+}
+a.fa.fa-twitter {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+	border: 2px solid #b4b4b4;
+	border-radius: 50%;
+	margin-top: 50px;
+	transition: all 0.5s;
+	border: 2px solid #AFD2E9; /*blue border*/
+}
+a.fa.fa-twitter:hover{
+	background: #fff; /*Color of background*/
+	color: #AFD2E9; /*Color of icon*/
+	border: 2px solid #AFD2E9; /*blue border*/
 }
