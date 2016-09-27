@@ -3,6 +3,13 @@ $(document).ready(function() {
         $('body').addClass('loaded');
     }, 1500);
 
+    $('.grid').masonry({
+          // options
+             itemSelector: '.grid-item',
+             /*  columnWidth: 200*/
+          
+    });
+
     $(".pillaricon").hover(function () {
         $(this).toggleClass("fa-spin");
     });

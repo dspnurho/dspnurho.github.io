@@ -1108,3 +1108,17 @@ a.fa.fa-twitter:hover{
 	margin: 30px 0;
 	color: #d1d1d1;
 }
+
+
+
+
+
+
+
+/* masonry */
+.grid-item {
+    width: 25%;
+}
+.grid-item--width2 {
+    width: 400px;
+}
