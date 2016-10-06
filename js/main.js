@@ -1,8 +1,9 @@
 $(document).ready(function() {
     /* 404 page functionality */
-    $('body.anywhere').click(function() {
+    $('anywhere').click(function() {
         location.href = "../";
     });
+
     setTimeout(function() {
         $('body').addClass('loaded');
     }, 1500);
