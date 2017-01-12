@@ -119,7 +119,7 @@ font-weight: 900;
 /* Home Style */
 #tf-home{
     background: url(../img/grads2016-dark.jpg);
-	background-size: cover;
+	background-size: cover; 
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
