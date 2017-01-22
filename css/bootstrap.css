@@ -1094,7 +1094,7 @@ a {
 }
 .no-touch a:hover,
 a:focus {
-  color: #65adf5 !important; /*Color for mouseover on all of nav menu including dropdown*/
+  color: #A48137 !important; /*Color for mouseover on all of nav menu including dropdown*/
   text-decoration: underline;
 }
 a:focus {

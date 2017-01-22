@@ -45,11 +45,11 @@ a{ color: #fff;} /*Color for dropdown menu*/
 a:hover,
 a:focus{
 	text-decoration: none;
-	color: #afd2e9;
+	color: #CDA245;
 }
 
 .section-title hr{
-	border-color: #AFD2E9; /*Underlining on some titles*/
+	border-color: #CDA245; /*Underlining on some titles*/
 	border-width: 4px;
 	width: 60px;
 	float: left;
@@ -102,7 +102,7 @@ font-weight: 900;
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
 	text-decoration: none;
-	color: #AFD2E9 !important; /*Current page on navbar*/
+	color: #CDA245 !important; /*Current page on navbar*/
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -115,8 +115,8 @@ font-weight: 900;
 
 .navbar-default .navbar-toggle:focus {
 	text-decoration: none;
-	background-color: #afd2e9; /*Not sure - mobile?*/
-	border-color: #afd2e9;
+	background-color: #CDA245; /*Not sure - mobile?*/
+	border-color: #CDA245;
 	}
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	text-decoration: none;
@@ -158,7 +158,7 @@ font-weight: 900;
 	padding: 10% 0 0;
 }
 .color{
-	color: #AFD2E9;
+	color: #CDA245;
 }
 
 a.fa.fa-angle-down {
@@ -171,10 +171,12 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
+	text-decoration:none;
 	background: #000; /*Downpage arrow coloring*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*white border*/
+	color: #CDA245; /*Color of icon*/
+	border: 2px solid #CDA245; /*white border*/
 }
+
 /* About Section */
 #tf-about{
 	padding: 80px 0;
@@ -219,7 +221,7 @@ ul.about-list li span{
 	font-weight: 300;
 }
 .section-title.center .line{
-	border-top: 4px solid #afd2e9; /*Top line on double lines ex: pres statement*/
+	border-top: 4px solid #CDA245; /*Top line on double lines ex: pres statement*/
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -228,7 +230,7 @@ ul.about-list li span{
 }
 
 .section-title.center hr {
-	border-top: 4px solid rgba(175, 210, 233, 0.34); 
+	border-top: 4px solid rgba(205, 162, 69, 0.5); 
 	width: 40px;
 	text-align: center;
 	margin-top: 10px;
@@ -250,7 +252,7 @@ img.img-circle.brothers-img {
 	transition: all 0.5s;
 }
 #tf-brothers .item .thumbnail:hover>img.img-circle.brothers-img{
-	border: 4px solid #afd2e9; /*Brother hovering*/
+	border: 4px solid #CDA245; /*Brother hovering*/
 }
 #tf-brothers .thumbnail {
 	background: transparent;
@@ -280,7 +282,7 @@ img.img-circle.brothers-img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #afd2e9;
+	background: #CDA245;
 }
 .owl-theme .owl-controls .owl-page.active span{
 	background: #65adf5; /*Square page indicator passive color*/
@@ -297,7 +299,7 @@ img.img-circle.brothers-img {
 
 #tf-pillars i.fa {
 	font-size: 40px;
-	border: 4px solid #afd2e9;
+	border: 4px solid #CDA245;
 	width: 100px;
 	height: 100px;
 	padding: 27px 25px;
@@ -610,7 +612,7 @@ button.btn.tf-btn.btn-default {
 /* Footer */
 nav#footer{
 	background: #222222;
-	color: #ffffff;
+	color: #8c8c8c;
 	padding: 30px 0 15px 0;
 }
 nav#footer .fnav{ vertical-align: middle;}
@@ -639,8 +641,8 @@ nav#footer p{
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
-	background: #65adf5; /*footer hovering*/
-	border-color: #afd2e9;
+	background: #a48137; /*footer hovering*/
+	border-color: #CDA245;
 	color: #ffffff;
 
 }
@@ -889,7 +891,7 @@ figcaption > a {
 }
 #tf-about-purpose i.fa {
 	font-size: 40px;
-	border: 4px solid #afd2e9;
+	border: 4px solid #CDA245;
 	width: 100px;
 	height: 100px;
 	padding: 27px 25px;
@@ -904,9 +906,10 @@ figcaption > a {
 }
 
 #tf-about-purpose .service:hover>i.fa{
-	background: #65adf5; /*fill in circle colors*/
+	background: #A48137; /*fill in circle colors*/
 	color: #ffffff;
 }
+
 /*----- Section Titles -----*/
 .accordion-section-title {
 	width:100%;
@@ -968,12 +971,12 @@ a.fa.fa-linkedin {
 	margin-top: 50px;
     margin-left: 20px;
 	transition: all 0.5s;
-	border: 2px solid #AFD2E9; /*blue border*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-linkedin:hover{
 	background: #fff; /*Color of background*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*blue border*/
+	color: #CDA245; /*Color of icon*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-instagram {
     text-decoration: none;
@@ -984,13 +987,12 @@ a.fa.fa-instagram {
 	margin-top: 50px;
     margin-left: 20px;
 	transition: all 0.5s;
-	border: 2px solid #AFD2E9; /*blue border*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-instagram:hover{
 	background: #fff; /*Color of background*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*blue border*/
-}
+	color: #CDA245; /*Color of icon*/
+CDA245}
 a.fa.fa-facebook {
     text-decoration: none;
     padding: 10px 22px;
@@ -1000,12 +1002,12 @@ a.fa.fa-facebook {
 	margin-top: 50px;
     margin-left: 20px;
 	transition: all 0.5s;
-	border: 2px solid #AFD2E9; /*blue border*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-facebook:hover{
 	background: #fff; /*Color of background*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*blue border*/
+	color: #CDA245; /*Color of icon*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-twitter {
     text-decoration: none;
@@ -1015,12 +1017,12 @@ a.fa.fa-twitter {
 	border-radius: 50%;
 	margin-top: 50px;
 	transition: all 0.5s;
-	border: 2px solid #AFD2E9; /*blue border*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-twitter:hover{
 	background: #fff; /*Color of background*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*blue border*/
+	color: #CDA245; /*Color of icon*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 /* Careers page */
 #tf-alumni-page{
