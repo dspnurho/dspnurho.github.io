@@ -948,6 +948,7 @@ figcaption > a {
 }
 /*Connect Icons*/
 a.fa.fa-linkedin {
+    text-decoration: none;	
     padding: 10px 16px;
     color: #fff;
 	border: 2px solid #b4b4b4;
@@ -963,6 +964,7 @@ a.fa.fa-linkedin:hover{
 	border: 2px solid #AFD2E9; /*blue border*/
 }
 a.fa.fa-instagram {
+    text-decoration: none;
     padding: 10px 16px;
     color: #fff;
 	border: 2px solid #b4b4b4;
