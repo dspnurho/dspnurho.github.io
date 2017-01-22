@@ -1408,11 +1408,13 @@ ol ol {
   list-style: none;
 }
 .list-inline {
+  text-decoration: none;
   padding-left: 0;
   margin-left: -5px;
   list-style: none;
 }
 .list-inline > li {
+  text-decoration: none;
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
