@@ -103,17 +103,22 @@ font-weight: 900;
 	color: #AFD2E9 !important; /*Current page on navbar*/
 	background-color: transparent;
 	font-weight: 700;
+	text-decoration: none;
 }
 
 .navbar-toggle {
 	border-radius: 0;
 	}
 .navbar-default .navbar-toggle:hover, 
+
+
 .navbar-default .navbar-toggle:focus {
+	text-decoration: none;
 	background-color: #afd2e9; /*Not sure - mobile?*/
 	border-color: #afd2e9;
 	}
 .navbar-default .navbar-toggle:hover>.icon-bar {
+	text-decoration: none;
 	background-color: #000;
 	}
 /* Home Style */
