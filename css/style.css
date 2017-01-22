@@ -110,7 +110,7 @@ font-weight: 900;
 	border-radius: 0;
 	}
 .navbar-default .navbar-toggle:hover, 
-
+	text-decoration: none;
 
 .navbar-default .navbar-toggle:focus {
 	text-decoration: none;
