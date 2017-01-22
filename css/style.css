@@ -613,6 +613,12 @@ nav#footer{
 	padding: 20px 0 15px 0;
 }
 nav#footer .fnav{ vertical-align: middle;}
+
+ul.footer-copyright li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
 ul.footer-social li{
 	display: inline-block;
 	margin-right: 10px;
