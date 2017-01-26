@@ -10,30 +10,36 @@ body, html{
 
 h1{
 	text-transform: uppercase;
+	font-size: 36px;
 }
 h1 strong{
 	font-weight: 900;
 }
 h2{
+	font-size: 30px;
 	text-transform: uppercase;
 	line-height: 20px;
 	margin:  0;
 }
 h3{
-font-size: 18px;
+font-size: 24px;
 font-weight: 900;
 }
 h4{
+	font-size: 18px;
 	text-transform: uppercase;
 }
 h5{
 	/*text-transform: uppercase;*/
     /*No upper case for Jin's statement*/
+	font-size: 14px;
 	font-weight: 700;
 	line-height: 20px;
 }
 p{
 	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
 }
 p.intro{
 	font-size: 16px;
@@ -932,7 +938,7 @@ figcaption > a {
 
 /*----- Section Titles -----*/
 .accordion-section-title {
-	width:100%;
+	wih:100%;
 	padding:15px;
 	display:inline-block;
 	transition:all linear 0.15s;
