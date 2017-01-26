@@ -1117,6 +1117,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.img-flyer,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 80%;
+  height: auto;
+}
 .img-rounded {
   border-radius: 6px;
 }
@@ -3066,9 +3076,12 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 30px;
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #CDA245;
+  border-color: #A48137;
 }
 .no-touch .btn-primary:hover,
 .btn-primary:focus,
@@ -3077,8 +3090,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #A48137;
+  border-color: #A48137;
 }
 .btn-primary:active,
 .btn-primary.active,
