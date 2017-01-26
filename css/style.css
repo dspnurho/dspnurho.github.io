@@ -45,11 +45,11 @@ a{ color: #fff;} /*Color for dropdown menu*/
 a:hover,
 a:focus{
 	text-decoration: none;
-	color: #afd2e9;
+	color: #CDA245;
 }
 
 .section-title hr{
-	border-color: #AFD2E9; /*Underlining on some titles*/
+	border-color: #CDA245; /*Underlining on some titles*/
 	border-width: 4px;
 	width: 60px;
 	float: left;
@@ -88,6 +88,7 @@ font-weight: 900;
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a {
+	text-decoration: none;
 	text-transform: uppercase;
 	color: #FFF;
 	font-size: 12px;
@@ -100,7 +101,8 @@ font-weight: 900;
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #AFD2E9 !important; /*Current page on navbar*/
+	text-decoration: none;
+	color: #CDA245 !important; /*Current page on navbar*/
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -109,11 +111,15 @@ font-weight: 900;
 	border-radius: 0;
 	}
 .navbar-default .navbar-toggle:hover, 
+	text-decoration: none;
+
 .navbar-default .navbar-toggle:focus {
-	background-color: #afd2e9; /*Not sure - mobile?*/
-	border-color: #afd2e9;
+	text-decoration: none;
+	background-color: #CDA245; /*Not sure - mobile?*/
+	border-color: #CDA245;
 	}
 .navbar-default .navbar-toggle:hover>.icon-bar {
+	text-decoration: none;
 	background-color: #000;
 	}
 /* Home Style */
@@ -152,7 +158,7 @@ font-weight: 900;
 	padding: 10% 0 0;
 }
 .color{
-	color: #AFD2E9;
+	color: #CDA245;
 }
 
 a.fa.fa-angle-down {
@@ -165,10 +171,12 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
+	text-decoration:none;
 	background: #000; /*Downpage arrow coloring*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*white border*/
+	color: #CDA245; /*Color of icon*/
+	border: 2px solid #CDA245; /*white border*/
 }
+
 /* About Section */
 #tf-about{
 	padding: 80px 0;
@@ -213,7 +221,7 @@ ul.about-list li span{
 	font-weight: 300;
 }
 .section-title.center .line{
-	border-top: 4px solid #afd2e9; /*Top line on double lines ex: pres statement*/
+	border-top: 4px solid #CDA245; /*Top line on double lines ex: pres statement*/
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -222,7 +230,7 @@ ul.about-list li span{
 }
 
 .section-title.center hr {
-	border-top: 4px solid rgba(175, 210, 233, 0.34); 
+	border-top: 4px solid rgba(205, 162, 69, 0.5); 
 	width: 40px;
 	text-align: center;
 	margin-top: 10px;
@@ -244,7 +252,7 @@ img.img-circle.brothers-img {
 	transition: all 0.5s;
 }
 #tf-brothers .item .thumbnail:hover>img.img-circle.brothers-img{
-	border: 4px solid #afd2e9; /*Brother hovering*/
+	border: 4px solid #CDA245; /*Brother hovering*/
 }
 #tf-brothers .thumbnail {
 	background: transparent;
@@ -274,7 +282,7 @@ img.img-circle.brothers-img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #afd2e9;
+	background: #CDA245;
 }
 .owl-theme .owl-controls .owl-page.active span{
 	background: #65adf5; /*Square page indicator passive color*/
@@ -291,7 +299,7 @@ img.img-circle.brothers-img {
 
 #tf-pillars i.fa {
 	font-size: 40px;
-	border: 4px solid #afd2e9;
+	border: 4px solid #CDA245;
 	width: 100px;
 	height: 100px;
 	padding: 27px 25px;
@@ -576,7 +584,7 @@ label {
 
 button.btn.tf-btn.btn-default {
 	float: right;
-	background: #65adf5; /*Submit button on bottom*/
+	background: #ffffff; /*Submit button on bottom*/
 	border: 0;
 	border-radius: 0;
 	padding: 10px 40px;
@@ -604,10 +612,16 @@ button.btn.tf-btn.btn-default {
 /* Footer */
 nav#footer{
 	background: #222222;
-	color: #ffffff;
-	padding: 20px 0 15px 0;
+	color: #8c8c8c;
+	padding: 30px 0 15px 0;
 }
 nav#footer .fnav{ vertical-align: middle;}
+
+ul.footer-copyright li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
 ul.footer-social li{
 	display: inline-block;
 	margin-right: 10px;
@@ -627,8 +641,8 @@ nav#footer p{
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
-	background: #65adf5; /*footer hovering*/
-	border-color: #afd2e9;
+	background: #a48137; /*footer hovering*/
+	border-color: #CDA245;
 	color: #ffffff;
 
 }
@@ -768,7 +782,7 @@ figcaption > a {
 }
 
 #tf-recruitment-page{
-    background: url(../img/brother_suit.jpg);
+    background: url(../img/winterrecruitment.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -783,6 +797,26 @@ figcaption > a {
 	background-repeat: no-repeat;
 	color: #cfcfcf;
 }
+
+#tf-quote{
+    background: url(../img/grads2016.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+}
+
+#tf-quote .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	background-attachment: fixed;
+
 #tf-about-home{
     background: url(https://c2.staticflickr.com/8/7549/15823539812_c341725d9b_b.jpg);
 	background-size: cover;
@@ -877,7 +911,7 @@ figcaption > a {
 }
 #tf-about-purpose i.fa {
 	font-size: 40px;
-	border: 4px solid #afd2e9;
+	border: 4px solid #CDA245;
 	width: 100px;
 	height: 100px;
 	padding: 27px 25px;
@@ -892,9 +926,10 @@ figcaption > a {
 }
 
 #tf-about-purpose .service:hover>i.fa{
-	background: #65adf5; /*fill in circle colors*/
+	background: #A48137; /*fill in circle colors*/
 	color: #ffffff;
 }
+
 /*----- Section Titles -----*/
 .accordion-section-title {
 	width:100%;
@@ -948,6 +983,7 @@ figcaption > a {
 }
 /*Connect Icons*/
 a.fa.fa-linkedin {
+    text-decoration: none;	
     padding: 10px 16px;
     color: #fff;
 	border: 2px solid #b4b4b4;
@@ -955,14 +991,15 @@ a.fa.fa-linkedin {
 	margin-top: 50px;
     margin-left: 20px;
 	transition: all 0.5s;
-	border: 2px solid #AFD2E9; /*blue border*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-linkedin:hover{
 	background: #fff; /*Color of background*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*blue border*/
+	color: #CDA245; /*Color of icon*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-instagram {
+    text-decoration: none;
     padding: 10px 16px;
     color: #fff;
 	border: 2px solid #b4b4b4;
@@ -970,13 +1007,12 @@ a.fa.fa-instagram {
 	margin-top: 50px;
     margin-left: 20px;
 	transition: all 0.5s;
-	border: 2px solid #AFD2E9; /*blue border*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-instagram:hover{
 	background: #fff; /*Color of background*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*blue border*/
-}
+	color: #CDA245; /*Color of icon*/
+CDA245}
 a.fa.fa-facebook {
     text-decoration: none;
     padding: 10px 22px;
@@ -986,12 +1022,12 @@ a.fa.fa-facebook {
 	margin-top: 50px;
     margin-left: 20px;
 	transition: all 0.5s;
-	border: 2px solid #AFD2E9; /*blue border*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-facebook:hover{
 	background: #fff; /*Color of background*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*blue border*/
+	color: #CDA245; /*Color of icon*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-twitter {
     text-decoration: none;
@@ -1001,12 +1037,12 @@ a.fa.fa-twitter {
 	border-radius: 50%;
 	margin-top: 50px;
 	transition: all 0.5s;
-	border: 2px solid #AFD2E9; /*blue border*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 a.fa.fa-twitter:hover{
 	background: #fff; /*Color of background*/
-	color: #AFD2E9; /*Color of icon*/
-	border: 2px solid #AFD2E9; /*blue border*/
+	color: #CDA245; /*Color of icon*/
+	border: 2px solid #CDA245; /*Gold border*/
 }
 /* Careers page */
 #tf-alumni-page{

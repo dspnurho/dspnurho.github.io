@@ -1094,7 +1094,7 @@ a {
 }
 .no-touch a:hover,
 a:focus {
-  color: #65adf5 !important; /*Color for mouseover on all of nav menu including dropdown*/
+  color: #A48137 !important; /*Color for mouseover on all of nav menu including dropdown*/
   text-decoration: underline;
 }
 a:focus {
@@ -1115,6 +1115,16 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
+  height: auto;
+}
+
+.img-flyer,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 80%;
   height: auto;
 }
 .img-rounded {
@@ -1408,11 +1418,13 @@ ol ol {
   list-style: none;
 }
 .list-inline {
+  text-decoration: none;
   padding-left: 0;
   margin-left: -5px;
   list-style: none;
 }
 .list-inline > li {
+  text-decoration: none;
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
@@ -3064,9 +3076,12 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 30px;
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #CDA245;
+  border-color: #A48137;
 }
 .no-touch .btn-primary:hover,
 .btn-primary:focus,
@@ -3075,8 +3090,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #A48137;
+  border-color: #A48137;
 }
 .btn-primary:active,
 .btn-primary.active,
