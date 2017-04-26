@@ -589,6 +589,7 @@ ol.type li a.active {
 }
 
 .hover-bg .hover-text {
+
     position: absolute;
     text-align: center;
     margin: 0 auto;
@@ -602,6 +603,8 @@ ol.type li a.active {
 }
 
 .hover-bg .hover-text>h4 {
+  font-weight: bold;
+  color: #CDA245;
     opacity: 0;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
@@ -1397,3 +1400,68 @@ a.fa.fa-twitter:hover {
 .grid-item--width2 {
     width: 400px;
 }
+
+/***** Marley *****/
+/*---------------*/
+
+figure.effect-marley figcaption {
+	text-align: center;
+}
+
+figure.effect-marley h2 {
+  font-weight: bold;
+	position: absolute;
+	padding: 10px 0;
+  top: 100px;
+  right: 50px;
+  left: 50px;
+  -webkit-transition: -webkit-transform 0.45s;
+  transition: transform 0.45s;
+  -webkit-transform: translate3d(0,5px,0);
+  transform: translate3d(0,5px,0);
+}
+
+figure.effect-marley p {
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  padding: 0;
+	bottom: 5px;
+	line-height: 1.5;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+figure.effect-marley:hover h2 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-marley h2::after {
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #fff;
+	#content: '';
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+figure.effect-marley h2::after,
+figure.effect-marley p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-marley:hover h2::after,
+figure.effect-marley:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/*---------------*/
