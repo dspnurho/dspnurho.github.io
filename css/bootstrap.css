@@ -255,7 +255,9 @@ th {
   .table {
     border-collapse: collapse !important;
   }
-  .table td,
+
+
+   td,
   .table th {
     background-color: #fff !important;
   }
@@ -2253,9 +2255,12 @@ th {
   text-align: left;
 }
 .table {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
   max-width: 100%;
   margin-bottom: 20px;
+  text-align: justify;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -6584,12 +6589,10 @@ button.close {
 .no-touch .dropdown:hover .dropdown-menu {
         display: block;
             margin-top: 0; /* remove the gap so it doesn't close*/
-             
+
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu .nav .dropdown {
     /*background-color: #3344ff;*/
     background-color: #ff0000 !important; /*changes bottom dropdown but not others?*/
     color:#ffffff !important;
 }
-
-
